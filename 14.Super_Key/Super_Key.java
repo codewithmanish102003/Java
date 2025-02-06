@@ -1,13 +1,13 @@
-class  Base2{
+class  Base{
    public int a;
-    Base2(int a){
+    Base(int a){
         this.a=a;
     }
 }
 
-class Derived2 extends Base2{
+class Derived extends Base{
 int b=10;
-    Derived2(){
+    Derived(){
         super(10);
         System.out.println("I am a Derived Class Constructor");
     }
@@ -15,7 +15,7 @@ int b=10;
 
 public class Super_Key{
     public static void main(String[] args){
-        Derived2 d=new Derived2();
+        Derived d=new Derived();
         System.out.println(d.b);
         }
 }

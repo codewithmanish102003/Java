@@ -16,8 +16,6 @@ public class AWTExample {
         choice.add("Option 2");
         frame.add(choice);
         
-        
-        
         List list = new List(4);
         list.add("Item 1");
         list.add("Item 2");

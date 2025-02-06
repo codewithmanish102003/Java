@@ -1,7 +1,7 @@
 
 
 public class staticVar{
-    //int=90;
+    // int val=90;
     //can be accesssed directly with class name
     static int val=90;
 

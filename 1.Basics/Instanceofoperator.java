@@ -1,7 +1,7 @@
 
-public class Instanceofoperator{
+class Instanceofoperator{
   public static void main(String[] args){
-    String name="manish";
+    String name="Manish";
     System.out.println(name instanceof String);
 
     Instanceofoperator ob=new Instanceofoperator();

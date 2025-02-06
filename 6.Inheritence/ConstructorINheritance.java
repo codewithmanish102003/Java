@@ -10,8 +10,8 @@ class DerivedC extends BaseC{
     }
 }
 
-public class ConstructorINheritance{
-    @SuppressWarnings("unused")
+@SuppressWarnings("unused")
+class ConstructorINheritance{
     public static void main(String[] args) {
         DerivedC d=new DerivedC();
     }
